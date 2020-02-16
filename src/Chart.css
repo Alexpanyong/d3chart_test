@@ -1,0 +1,31 @@
+#dataChart, #dataSummary {
+  overflow: initial;
+}
+
+#chartTitle {
+  fill: #888888;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.lineChart circle {
+  z-index: 10;
+}
+
+.lineChart g.tick line {
+  color: #dddddd;
+}
+
+.lineChart .tooltip {
+  /* display: block;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid black; */
+}
+
+.lineChart .tooltip .tooltipBox {
+  display: block;
+  fill: white;
+  stroke: black;
+  stroke-width: 2;
+}
